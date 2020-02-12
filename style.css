@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=flex');
+body {
+  margin:0;
+  padding: 0;
+  font-size: 24px;
+  flex-direction: column;
+  display: flex;
+  font-family: "Lato", "Tahoma", sans-serif;
+}
+.wropper {
+  position: absolute;
+  max-width: 1024px;
+}
+a{
+  line-height: 1px;
+  text-decoration: none;
+  text-decoration-color: whitesmoke;
+  color: silver;
+}
+a:hover {
+  color: blanchedalmond;  
+  text-decoration: underline; 
+  cursor: pointer;
+}
+a.button{
+  padding-left: 00px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  padding: 0px 2px 2px 2px;
+  border-radius: 6px;
+  background: rgb(4, 109, 230);
+  transition: 0.2s;
+}
+a.button:hover { 
+  background: rgb(4, 1, 255); 
+}
+a.button:active {
+  background: rgb(11, 47, 248);
+  box-shadow: 0 3px rgb(6, 22, 245) inset;
+}
+.title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 32px;
+}
+.avatar {
+  position: relative;
+  margin-right: 400px;
+  float:right;
+  width: 200px;
+}
+.avatar-img {
+  filter: alpha(Opacity=85); /*Полупрозрачность для IE*/
+  opacity: 0.85;
+  border-radius: 50px; /* Радиус скругления */
+}
+.avatar-img:hover {
+  width: 310px;
+}
+h4 {
+  line-height: 20px;
+  margin: 5px 5px;
+}
+ul {
+   margin: 5px 5px;
+}
+p {
+margin: 8px 8px;
+}
+.skills-list {
+  margin: 0;
+  padding: 0;
+}
+.skills-list li {
+  padding-left: 32px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: #080208;
+  border: 1px solid #712073;
+  border-radius: 8px;
+}
+.level div {
+  margin: 1px;
+  height: 12px;
+  background-color: #2cdf1b;
+  border-radius: 6px;
+}
