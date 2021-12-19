@@ -6,19 +6,22 @@ body {
   flex-direction: column;
   display: flex;
   font-family: "Lato", "Tahoma", sans-serif;
+  background-color: rgba(138, 130, 130, 0.63);
 }
 .wropper {
-  position: absolute;
+margin: 0;
+margin-left: auto;
+margin-right: auto;
   max-width: 1024px;
 }
 a{
-  line-height: 1px;
+
   text-decoration: none;
   text-decoration-color: whitesmoke;
-  color: silver;
+  color: rgb(48, 42, 42);
 }
 a:hover {
-  color: blanchedalmond;  
+  color: rgb(32, 32, 31);  
   text-decoration: underline; 
   cursor: pointer;
 }
@@ -48,15 +51,12 @@ a.button:active {
   position: relative;
   margin-right: 400px;
   float:right;
-  width: 200px;
+  width: 300px;
 }
 .avatar-img {
   filter: alpha(Opacity=85); /*Полупрозрачность для IE*/
   opacity: 0.85;
   border-radius: 50px; /* Радиус скругления */
-}
-.avatar-img:hover {
-  width: 310px;
 }
 h4 {
   line-height: 20px;
@@ -91,4 +91,26 @@ margin: 8px 8px;
   height: 12px;
   background-color: #2cdf1b;
   border-radius: 6px;
+}
+.icon-github-square {
+  width: 2.5em;
+}
+.icon {
+  display: inline-block;
+  margin-right: 40px;
+  width: 2.5em;
+  height: 2.5em;
+  stroke: currentColor;
+  fill: #0e0b0b;
+  cursor: pointer;
+  stroke-width: 0;
+}
+.icon:hover {
+  width: 3em;
+  fill: rgb(148, 148, 148);
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
