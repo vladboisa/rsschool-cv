@@ -1,116 +1,116 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=flex');
-body {
-  margin:0;
-  padding: 0;
-  font-size: 24px;
-  flex-direction: column;
-  display: flex;
-  font-family: "Lato", "Tahoma", sans-serif;
-  background-color: rgba(138, 130, 130, 0.63);
-}
-.wropper {
-margin: 0;
-margin-left: auto;
-margin-right: auto;
-  max-width: 1024px;
-}
-a{
-
-  text-decoration: none;
-  text-decoration-color: whitesmoke;
-  color: rgb(48, 42, 42);
-}
-a:hover {
-  color: rgb(32, 32, 31);  
-  text-decoration: underline; 
-  cursor: pointer;
-}
-a.button{
-  padding-left: 00px;
-  font-weight: 500;
-  color: white;
-  text-decoration: none;
-  padding: 0px 2px 2px 2px;
-  border-radius: 6px;
-  background: rgb(4, 109, 230);
-  transition: 0.2s;
-}
-a.button:hover { 
-  background: rgb(4, 1, 255); 
-}
-a.button:active {
-  background: rgb(11, 47, 248);
-  box-shadow: 0 3px rgb(6, 22, 245) inset;
-}
-.title {
-  text-align: center;
-  font-weight: bolder;
-  font-size: 32px;
-}
-.avatar {
-  position: relative;
-  margin-right: 400px;
-  float:right;
-  width: 300px;
-}
-.avatar-img {
-  filter: alpha(Opacity=85); /*Полупрозрачность для IE*/
-  opacity: 0.85;
-  border-radius: 50px; /* Радиус скругления */
-}
-h4 {
-  line-height: 20px;
-  margin: 5px 5px;
-}
-ul {
-   margin: 5px 5px;
-}
-p {
-margin: 8px 8px;
-}
-.skills-list {
+  @import url('https://fonts.googleapis.com/css?family=Lato&display=flex');
+  body {
+    margin:0;
+    padding: 0;
+    font-size: 24px;
+    flex-direction: column;
+    display: flex;
+    font-family: "Lato", "Tahoma", sans-serif;
+    background-color: rgba(138, 130, 130, 0.63);
+  }
+  .wropper {
   margin: 0;
-  padding: 0;
-}
-.skills-list li {
-  padding-left: 32px;
-  background-repeat: no-repeat;
-  background-position: left;
-}
-.level {
-  margin: 4px 0 16px;
-  padding: 0;
-  height: 14px;
-  font-size: 0;
-  background-color: #080208;
-  border: 1px solid #712073;
-  border-radius: 8px;
-}
-.level div {
-  margin: 1px;
-  height: 12px;
-  background-color: #2cdf1b;
-  border-radius: 6px;
-}
-.icon-github-square {
-  width: 2.5em;
-}
-.icon {
-  display: inline-block;
-  margin-right: 40px;
-  width: 2.5em;
-  height: 2.5em;
-  stroke: currentColor;
-  fill: #0e0b0b;
-  cursor: pointer;
-  stroke-width: 0;
-}
-.icon:hover {
-  width: 3em;
-  fill: rgb(148, 148, 148);
-}
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+  margin-left: auto;
+  margin-right: auto;
+    max-width: 1024px;
+  }
+  a{
+
+    text-decoration: none;
+    text-decoration-color: whitesmoke;
+    color: rgb(48, 42, 42);
+  }
+  a:hover {
+    color: rgb(32, 32, 31);  
+    text-decoration: underline; 
+    cursor: pointer;
+  }
+  a.button{
+    padding-left: 00px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 0px 2px 2px 2px;
+    border-radius: 6px;
+    background: rgb(4, 109, 230);
+    transition: 0.2s;
+  }
+  a.button:hover { 
+    background: rgb(4, 1, 255); 
+  }
+  a.button:active {
+    background: rgb(11, 47, 248);
+    box-shadow: 0 3px rgb(6, 22, 245) inset;
+  }
+  .title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 32px;
+  }
+  .avatar {
+    position: relative;
+    margin-right: 400px;
+    float:right;
+    width: 300px;
+  }
+  .avatar-img {
+    filter: alpha(Opacity=85); /*Полупрозрачность для IE*/
+    opacity: 0.85;
+    border-radius: 50px; /* Радиус скругления */
+  }
+  h4 {
+    line-height: 20px;
+    margin: 5px 5px;
+  }
+  ul {
+    margin: 5px 5px;
+  }
+  p {
+  margin: 8px 8px;
+  }
+  .skills-list {
+    margin: 0;
+    padding: 0;
+  }
+  .skills-list li {
+    padding-left: 32px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .level {
+    margin: 4px 0 16px;
+    padding: 0;
+    height: 14px;
+    font-size: 0;
+    background-color: #080208;
+    border: 1px solid #712073;
+    border-radius: 8px;
+  }
+  .level div {
+    margin: 1px;
+    height: 12px;
+    background-color: #2cdf1b;
+    border-radius: 6px;
+  }
+  .icon-github-square {
+    width: 2.5em;
+  }
+  .icon {
+    display: inline-block;
+    margin-right: 40px;
+    width: 2.5em;
+    height: 2.5em;
+    stroke: currentColor;
+    fill: #0e0b0b;
+    cursor: pointer;
+    stroke-width: 0;
+  }
+  .icon:hover {
+    width: 3em;
+    fill: rgb(148, 148, 148);
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
