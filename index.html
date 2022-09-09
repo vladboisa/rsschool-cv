@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>My resume</title>
+</head>
+
+<body>
+    <div class="wropper">
+        <header>
+            <p class="title">Junior developer Resume</p>
+            <picture class="avatar">
+                <img class="avatar-img" src="https://i.ibb.co/Tt8fTjz/1.jpg" alt="Photo" title="my avatar" width="250">
+            </picture>
+        </header>
+        <main>
+            <h1>Vladislav Boisa</h1>
+            <h5>Specialty / Qualification:</h5>
+            <h4>Software Technician / Information Technology Software</h4>
+            <nav>The ways you cant <i>contact me:</i><br>
+                <ul>
+                    <li>Phone: +375(29) 107-74-33</li>
+                    <li>Telegram:<a class="button" href="https://t.me/Vladislav_32pc" title="Click for contact TG">My
+                            telegram</a></li>
+                </ul>
+            </nav>
+            <i>About myself:</i>
+            <ul>
+                <li>Friendly,</li>
+                <li>sociable,</li>
+                <li>lack of bad habits,</li>
+                <li>high learn ability.</li>
+            </ul>
+            <h4>Skills:</h4>
+            <ul>
+                <li>Basic knowledge: 1C, Adobe Photoshop, JavaScript;</li>
+                <li>Secondary knowledge: C, C++, C #, Java, HTML;</li>
+                <li class="skills">
+                    <dl class="skills-list">
+                        <dt>HTML</dt>
+                        <dd class="level">
+                            <div style="width: 60%;">60%</div>
+                        </dd>
+                        <dt>C++</dt>
+                        <dd class="level">
+                            <div style="width: 50%;">50%</div>
+                        </dd>
+                        <dt>Java</dt>
+                        <dd class="level">
+                            <div style="width: 40%;">40%</div>
+                        </dd>
+                    </dl>
+                </li>
+                <li>Administration, installation and support of operating systems of the Windows OS line;</li>
+                <li>There is experience in assembling and disassembling PCs.</li>
+            </ul>
+            <h4>Code example:</h4>
+            <pre><code>
+                removeRightCards() {
+                        const CARDS = document.querySelectorAll('.word-card');
+                        CARDS.forEach((card) =&gt; card.classList.remove('done'));
+                }
+                    preventCardClick() {
+                        const CARDS = document.querySelectorAll('.word-card');
+                            if (JSON.parse(localStorage.isStart) === true) {
+                                CARDS.forEach((card) =&gt; {
+                                card.style.pointerEvents = 'none';
+                                card.classList.remove('inactive');
+                        });} 
+                            else {
+                            CARDS.forEach((card) =&gt; card.style.pointerEvents = 'auto');
+                                }
+                }
+                </code></pre>
+            <h4>Education:</h4>
+            <p>
+                Graduated from Molodechno College of Trade and Economics, with a degree in:<br>
+                <i>Software Technician, specialization</i> Information Technology Software in 2017.<br>
+                At the moment I am studying for correspondence education in BSUiR, 3 course. <i>Specialty:</i>
+                systems
+                engineer,<br>
+                <i>specialization:</i> Engineering and psychological support of information technology.<br>
+            </p>
+            <p>English level: A2+</p>
+            <br>
+            <h4>
+                My pet project's:
+            </h4><br>
+            <a href="https://vladboisa.netlify.app/" title="Singolo pet project">Singolo</a>
+            <a href="https://vladboisa-movie-search.netlify.app/" title="Movie search pet project">Movie-search</a>
+        </main>
+        <footer>
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School Icon"
+                    width="100"></a>
+            <figure>
+                <a href="https://github.com/vladboisa" title="Developer Github Account"> 2021
+                    <svg class="icon icon-github-square" xmlns="http://www.w3.org/2000/svg">
+                        <use href="#icon-github-square"></use>
+                        <symbol id="icon-github-square" viewbox="0 0 24 28">
+                            <path
+                                d="M8.109 18.75v0c0.031-0.047 0.016-0.141-0.047-0.203-0.078-0.063-0.172-0.078-0.219-0.031-0.031 0.047-0.016 0.141 0.047 0.203 0.078 0.063 0.172 0.078 0.219 0.031zM7.672 18.109c-0.047-0.063-0.125-0.094-0.187-0.063-0.047 0.031-0.047 0.125 0 0.187 0.063 0.078 0.141 0.109 0.187 0.078v0c0.047-0.031 0.047-0.125 0-0.203zM7.031 17.484v0c0.016-0.031-0.016-0.094-0.078-0.125-0.047-0.016-0.109-0.016-0.125 0.031-0.031 0.047 0 0.094 0.063 0.125 0.063 0.016 0.125 0.016 0.141-0.031zM7.359 17.844v0c0.031-0.031 0.031-0.109-0.031-0.156-0.047-0.063-0.125-0.078-0.156-0.047-0.047 0.047-0.031 0.109 0.016 0.172 0.047 0.047 0.125 0.078 0.172 0.031zM8.703 19.016v0c0.016-0.063-0.047-0.141-0.141-0.172s-0.172 0-0.203 0.063c-0.016 0.063 0.047 0.141 0.141 0.172s0.172 0 0.203-0.063zM9.359 19.063v0c0-0.063-0.078-0.125-0.187-0.125-0.094 0-0.156 0.063-0.156 0.125s0.078 0.125 0.172 0.125 0.172-0.063 0.172-0.125zM9.969 18.953v0c-0.016-0.063-0.109-0.094-0.203-0.078s-0.156 0.078-0.141 0.141 0.094 0.109 0.187 0.094 0.156-0.094 0.156-0.156zM20 14c0-4.422-3.578-8-8-8s-8 3.578-8 8c0 3.531 2.297 6.531 5.469 7.594 0.406 0.078 0.547-0.172 0.547-0.391 0-0.187 0-0.812-0.016-1.484 0 0-2.219 0.484-2.688-0.953 0 0-0.359-0.922-0.891-1.156 0 0-0.719-0.5 0.063-0.5 0 0 0.781 0.063 1.219 0.828 0.703 1.234 1.875 0.875 2.328 0.672 0.078-0.516 0.281-0.875 0.516-1.078-1.781-0.203-3.656-0.891-3.656-3.953 0-0.875 0.313-1.578 0.828-2.141-0.078-0.203-0.359-1.016 0.078-2.125 0.672-0.203 2.203 0.828 2.203 0.828 0.641-0.187 1.313-0.266 2-0.266s1.359 0.078 2 0.266c0 0 1.531-1.031 2.203-0.828 0.438 1.109 0.156 1.922 0.078 2.125 0.516 0.562 0.828 1.266 0.828 2.141 0 3.078-1.875 3.75-3.656 3.953 0.281 0.25 0.547 0.734 0.547 1.484 0 1.062-0.016 1.922-0.016 2.188 0 0.219 0.141 0.469 0.547 0.391 3.172-1.062 5.469-4.062 5.469-7.594zM24 6.5v15c0 2.484-2.016 4.5-4.5 4.5h-15c-2.484 0-4.5-2.016-4.5-4.5v-15c0-2.484 2.016-4.5 4.5-4.5h15c2.484 0 4.5 2.016 4.5 4.5z">
+                            </path>
+                        </symbol>
+                    </svg>
+                </a>
+            </figure>
+
+        </footer>
+    </div>
+</body>
+
+</html>
