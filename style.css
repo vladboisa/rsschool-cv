@@ -86,6 +86,15 @@ margin: 8px 8px;
   border: 1px solid #712073;
   border-radius: 8px;
 }
+.level1 {
+width: 60%;
+}
+.level2 {
+width: 50%;
+}
+.level3 {
+width: 40%;
+}
 .level div {
   margin: 1px;
   height: 12px;
